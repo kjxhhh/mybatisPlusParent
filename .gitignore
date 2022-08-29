@@ -1,0 +1,6 @@
+# Project exclude paths
+/mybatisPlusContorller/target/
+/mybatisPlusEntity/target/
+/mybatisPlusMapper/target/
+/mybatisPlusService/target/
+/mybatisPlusWeb/target/
