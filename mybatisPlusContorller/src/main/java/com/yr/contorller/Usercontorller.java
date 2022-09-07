@@ -139,6 +139,7 @@ public class Usercontorller {
             String name = uploadFile.getOriginalFilename();
             String names[] = name.split("\\.");
 
+//            File file = new File("C:\\Users\\Administrator\\Desktop\\hah" + File.separator + fileName + "."
             File file = new File("/root/tomcat/hah" + File.separator + fileName + "."
                     + names[names.length - 1]);
             InputStream inputStream = uploadFile.getInputStream();// 获取到文件上传的流
@@ -178,6 +179,7 @@ public class Usercontorller {
             String name = uploadFile.getOriginalFilename();
             String names[] = name.split("\\.");
             System.out.println("5656");
+//            File file = new File("C:\\Users\\Administrator\\Desktop\\hah" + File.separator + fileName + "."
             File file = new File("/root/tomcat/hah" + File.separator + fileName + "."
                     + names[names.length - 1]);
             InputStream inputStream = uploadFile.getInputStream();// 获取到文件上传的流
